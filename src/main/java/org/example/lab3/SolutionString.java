@@ -20,6 +20,7 @@ public class SolutionString {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+
         System.out.print("Input first string: ");
         String s1 = scanner.nextLine();
         System.out.print("Input second string: ");
@@ -32,6 +33,6 @@ public class SolutionString {
 
 
         s1 = countAndReplace(s1);
-
+        System.out.println(s1);
     }
 }

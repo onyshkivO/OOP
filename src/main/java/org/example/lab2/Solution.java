@@ -16,7 +16,6 @@ public class Solution {
 
 
     public static void main(String[] args) {
-        third();
     }
     //first
     public static void first() {
