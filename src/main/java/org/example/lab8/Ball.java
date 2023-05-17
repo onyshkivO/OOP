@@ -33,4 +33,11 @@ public class Ball extends Body implements BodyInterface{
     {
         return Double.parseDouble(String.format("%.2f", 4 / 3 * Math.PI * Math.pow(r, 3)));
     }
+
+    @Override
+    public String toString() {
+        return "Ball{" +
+                "r=" + r +
+                '}';
+    }
 }

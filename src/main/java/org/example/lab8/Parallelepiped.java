@@ -11,6 +11,15 @@ public class Parallelepiped extends Body implements BodyInterface {
         this.c = c;
     }
 
+    @Override
+    public String toString() {
+        return "Parallelepiped{" +
+                "a=" + a +
+                ", b=" + b +
+                ", c=" + c +
+                '}';
+    }
+
     public Parallelepiped(Parallelepiped parallelepiped) {
         this.a = parallelepiped.a;
         this.b = parallelepiped.b;
