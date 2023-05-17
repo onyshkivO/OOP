@@ -46,5 +46,13 @@ namespace lab1C.lab8
         {
             return Math.Round(a * b * c, 2);
         }
+        public override string ToString()
+        {
+            return "Parallelepiped{" +
+                 "a=" + a +
+                 ", b=" + b +
+                 ", c=" + c +
+                 '}';
+        }
     }
 }
