@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.lab111java.HelloController">
+    <children>
+        <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+            <children>
+                <Label fx:id="label1" layoutX="41.0" layoutY="101.0" text=""/>
+                <Button layoutX="129.0" layoutY="212.0" mnemonicParsing="false" text="Write" onAction="#writeIntoFile"/>
+                <Label fx:id="label2" layoutX="41.0" layoutY="135.0" text=""/>
+                <Label fx:id="label3" layoutX="41.0" layoutY="169.0" text=""/>
+                <Label fx:id="label4" layoutX="55.0" layoutY="303.0" text=""/>
+                <Label fx:id="label5" layoutX="282.0" layoutY="101.0" text=""/>
+                <Label fx:id="label8" layoutX="565.0" layoutY="101.0" text=""/>
+                <Label fx:id="label7" layoutX="453.0" layoutY="101.0" text=""/>
+                <Label fx:id="label6" layoutX="354.0" layoutY="101.0" text=""/>
+                <Button layoutX="270.0" layoutY="212.0" mnemonicParsing="false" text="7 Symbols" onAction="#readSymbols"/>
+                <Button layoutX="348.0" layoutY="213.0" mnemonicParsing="false" text="Buffer" onAction="#readBuffer"/>
+                <Button layoutX="455.0" layoutY="213.0" mnemonicParsing="false" text="Lines" onAction="#readLines"/>
+                <Button layoutX="553.0" layoutY="212.0" mnemonicParsing="false" text="Symbols" onAction="#readSymbol"/>
+                <Button layoutX="270.0" layoutY="299.0" mnemonicParsing="false" text="Write to the end" onAction="#writetoTheEnd"/>
+                <TextField fx:id="textField1" layoutX="83.0" layoutY="97.0"/>
+                <TextField fx:id="textField2" layoutX="83.0" layoutY="131.0"/>
+                <TextField fx:id="textField3" layoutX="83.0" layoutY="165.0"/>
+                <TextField fx:id="textField4" layoutX="93.0" layoutY="299.0"/>
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>
+
